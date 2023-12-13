@@ -160,7 +160,7 @@ int main(void)
  * 
         LATC = rawADC << 4;     // Shift result 4 bits left to display low nybble
  * 
- *      This is advantageious since the least significant bits of a conversion
+ *      This is advantagious since the least significant bits of a conversion
  *      result will change most often as an analog input voltage changes. If you
  *      are using the built-in temperature sensor as the input, try heating the
  *      microcontroller with your touch, or by cradling the circuit board in
@@ -315,7 +315,7 @@ int main(void)
  *      on your CHRP4 board.)
  
     D6 = 1;                      // Turn on LED D6 to..
-    ADC_select_channel(ANQ1);    // read the light level on Q1 or Q2
+    ADC_select_channel(ANQ1);    // read the light level on Q1
  
  *      Unfortuantely, it won't be possible to use a multimeter to read the
  *      result of the conversion from the microcontroller pins now because some
